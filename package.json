@@ -1,0 +1,28 @@
+{
+  "name": "swc-plugin-issue-78",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "swc ./index.jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/develra/swc-plugin-issue-78.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/develra/swc-plugin-issue-78/issues"
+  },
+  "homepage": "https://github.com/develra/swc-plugin-issue-78#readme",
+  "dependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.242",
+    "@swc/plugin-styled-components": "^1.2.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.5"
+  }
+}

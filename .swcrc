@@ -1,0 +1,19 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "ecmascript",
+      "jsx": true,
+      "dynamicImport": true
+    },
+    "experimental": {
+      "plugins": [
+        [
+          "@swc/plugin-styled-components",
+          {
+            "displayName": true
+          }
+        ]
+      ]
+    }
+  }
+}
